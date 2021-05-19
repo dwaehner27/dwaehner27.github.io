@@ -1,0 +1,69 @@
+body{
+    background: rgb(240, 239, 239);
+}
+
+.container{
+    background:rgb(191, 191, 191);
+    position: relative;
+    top: 100px;
+    padding: 15px;
+    margin-bottom: 200px;
+}
+
+#landing_title{
+    color:rgb(208, 205, 205);
+    font-size: 50px;
+}
+
+.navbar-brand {
+    padding: 17px;
+    background: #ed0303;
+  }
+
+h1{
+    color: #ed0303;
+    padding: 10px;
+}
+p{
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+    color: #ed0303;
+    padding: 10px;
+}
+
+h3{
+    color: #ed0303;
+    padding: 10px;
+    text-align: center;
+}
+
+#select{
+    border: #ed0303 3px solid;
+}
+
+.img-thumbnail{
+    padding:10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+thead{
+    font-weight: bold;
+}
+
+.table tr:nth-child(odd){
+    background: rgb(247, 247, 247);
+}
+
+.table tr:nth-child(even){
+    background:white;
+}
+
+@media (min-width: 1200px) {
+.container {
+        max-width: 80%;
+    }
+}
